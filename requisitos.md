@@ -67,7 +67,7 @@ Utiliza las siguientes variables CSS para mantener consistencia en los colores:
 
 ### Sección Info (#info) - **Display Flex**
 
-💡 **Pista**: Crea un layout de dos columnas (texto e imagen) usando Flexbox
+💡 **Pista**se: Crea un layout de dos columnas (texto e imagen) usando Flexbox
 
 #### Contenedor (.section-wrapper)
 

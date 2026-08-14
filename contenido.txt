@@ -4,7 +4,7 @@ CONTENIDO DE LA LANDING PAGE - COMIDA SALUDABLE
 HEADER
 ------
 Logo: logo.webp (imagen ubicada en /assets/images/logo.webp)
-Dimensiones del logo: 50px x 50px
+Dimensiones del logo: 50px x 50px //css
 
 Título:
 Comida Saludable
