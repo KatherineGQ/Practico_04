@@ -62,3 +62,102 @@ max-width: fit-content;}
   padding: 20px;
   border-radius: 10px;
 }
+
+/* Estilos Abel */
+#products {
+    background:var(--background-secondary-color);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+}
+
+.product-card {
+    width: 300px;
+    border: 2px solid var(--secondary-color);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.product-card p {
+    color: var(--text-color);
+    margin-left: 2%;
+}
+
+.product-card h3 {
+    color: var(--accent-color);
+    margin-left: 2%;
+}
+
+.product-card img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* --- Sección Beneficios --- */
+#benefits {
+    background-color: var(--background-color);
+    padding: 60px 20px;
+    color: var(--text-color);
+    font-family: var(--font-family);
+}
+
+#benefits h2 {
+    max-width: 1000px;
+    margin: 0 auto 20px auto;
+}
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.benefits-table {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.benefits-table th, 
+.benefits-table td {
+    border: 1px solid var(--secondary-color);
+    padding: 15px;
+    text-align: left;
+}
+
+.benefits-table th {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    font-weight: bold;
+}
+
+.benefits-table tbody tr:nth-child(even) {
+    background-color: rgba(39, 174, 97, 0.1);
+}
+
+/* --- Media Queries (Móviles < 520px) --- */
+@media (max-width: 520px) {
+    
+    .product-card {
+        width: 100%; 
+        max-width: 350px; 
+    }
+
+    #products {
+        padding: 30px 15px;
+        gap: 30px; 
+    }
+
+    #benefits {
+        padding: 40px 15px;
+    }
+
+    .benefits-table th, 
+    .benefits-table td {
+        padding: 10px; 
+        font-size: 14px;
+    }
+}
