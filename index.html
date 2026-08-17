@@ -1,38 +1,60 @@
 <!DOCTYPE html>
 <html lang="es">
+
+    <!-- Katherine -->
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Comida Saludable</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
     <header>
         <img class="logo" src="assets/images/logo.webp" alt="Logo Comida Saludable">
-        <h1>Comida Saludable</h1>
+        <h1>Comida <span>Saludable</span></h1>
         <nav>
             <ul>
-                <li> <a href="#desayuno">Desayuno</a></li>
+                <li><a href="#desayuno">Desayuno</a></li>
                 <li><a href="#almuerzo">Almuerzo</a></li>
                 <li><a href="#cena">Cena</a></li>
                 <li><a href="#snacks">Snacks</a></li>
             </ul>
         </nav>
     </header>
-<main>
-    <section id="hero">
-     <video class="hero-video" autoplay muted loop playsinline src="assets/video/hero.mp4"></video>
-     <div class="banner-content">
-        <h2>Bienvenido a Comida Saludable</h2>
-        <p>Descubre recetas deliciosas y nutritivas para cada comida del día.</p>
-        <p>¡Comer sano nunca fue tan fácil y sabroso!</p>
-     </div>
-    </section>
+    <main>
+        <section id="hero">
+            <video class="hero-video" autoplay muted loop playsinline src="assets/video/hero.mp4"></video>
+            <div class="banner-content">
+                <h2>Bienvenido a Comida Saludable</h2>
+                <p>Descubre recetas deliciosas y nutritivas para cada comida del día.</p>
+                <p>¡Comer sano nunca fue tan fácil y sabroso!</p>
+            </div>
+        </section>
 
-    <!-- Parte de Abel -->
+        <section id="info">
+            <div class="section-wrapper">
+                <div class="info-section-wrapper">
+                    <h2>Recetas Destacadas</h2>
+                    <p>Explora nuestras recetas más populares y saludables para inspirar tus comidas diarias. En Comida
+                        Saludable, creemos que comer bien no tiene por qué ser complicado. Nuestras recetas están
+                        diseñadas para ser fáciles de preparar, deliciosas y nutritivas, utilizando ingredientes frescos
+                        y accesibles.</p>
+                    <p>Desde desayunos energéticos hasta cenas ligeras, tenemos opciones para todos los gustos y
+                        necesidades.</p>
+                    <p>¡Empieza a cocinar hoy mismo y disfruta de los beneficios de una alimentación saludable!</p>
+                </div>
+                <div class="info-section-wrapper">
+                    <img src="assets/images/info.avif" alt="Recetas Destacadas">
+                </div>
+            </div>
+        </section>
 
-    <section id="products">
-            <div class="product-card">
+        <!-- Parte de Abel -->
+
+        <section id="products">
+            <div class="product-card" id="desayuno">
                 <img src="./assets/images/desayuno.jpg" alt="desayuno" />
                 <h3>
                     Desayuno Saludable
@@ -42,7 +64,7 @@
                 </p>
             </div>
 
-            <div class="product-card">
+            <div class="product-card" id="almuerzo">
                 <img src="./assets/images/almuerzo.jpg" alt="almuerzo" />
                 <h3>
                     Almuerzo Nutritivo
@@ -52,7 +74,7 @@
                 </p>
             </div>
 
-            <div class="product-card">
+            <div class="product-card" id="cena">
                 <img src="./assets/images/cena.jpg" alt="cena" />
                 <h3>
                     Cena Ligera
@@ -62,7 +84,7 @@
                 </p>
             </div>
 
-            <div class="product-card">
+            <div class="product-card" id="snacks">
                 <img src="./assets/images/snacks.webp" alt="snacks" />
                 <h3>
                     Snacks Saludables
@@ -114,8 +136,32 @@
                 </table>
             </div>
         </section>
-       
-</main>
-    
+    </main>
+
+    <!-- Katherine -->
+    <footer>
+        <section id="contacto">
+            <div class="contacto-footer">
+                <div>
+                    <h2>Contacto</h2>
+                    <p>Si tienes alguna pregunta o sugerencia, no dudes en contactarnos.</p>
+                    <ul>
+                        <li>Email: contacto@comidasaludable.com</li>
+                        <li>Teléfono: +123 456 7890</li>
+                        <li>Dirección: Calle Saludable 123, Ciudad Nutritiva</li>
+                    </ul>
+                </div>
+        </section>
+
+        <section id="derechos">
+            <div>
+                <img class="logo-derechos" src="assets/images/logo.webp" alt="Logo.webp">
+                <h1>Comida <span>Saludable</span></h1>
+                <p>© 2026 Comida Saludable. Todos los derechos reservados.</p>
+
+            </div>
+        </section>
+
+    </footer>
 </body>
 </html>
